@@ -28,13 +28,44 @@
   color: white ;
   cursor: pointer;
 }
-.familymembers{
+/* .familymembers{
   border: 1px solid grey;
   padding: 20px ;
   margin: 10px;
   text-align: center;
   max-width: 200px;
+
+
+}
+.mainfamily{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
   
+
+ 
+} */
+.mainfamily {
+  display: flex;          /* cards go left → right */
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;        /* responsive */
 }
 
+/* each card */
+.familymembers {
+  display: flex;
+  flex-direction: column; /* text inside card top → bottom */
+  width: 220px;
+  padding: 16px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
+/* text rows */
+.familymembers p {
+  margin: 6px 0;
+  font-weight: 500;
+}
