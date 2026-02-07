@@ -1,0 +1,22 @@
+.card img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+.card{
+  border: 1px solid rgba(72, 72, 72, 0.167);
+  box-shadow: 10px 10px 10px rgba(86, 86, 86, 0.479);
+  padding: 20px 20px;
+  margin: 20px 20px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 200px;
+}
+.card .tittle{
+  font-family: Arial, sans-serif;
+}
+.card .para{
+  font-size: 10px ;
+  color: grey;
+  font-family: sans-serif;
+}
