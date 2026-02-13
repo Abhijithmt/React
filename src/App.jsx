@@ -5,19 +5,19 @@ import Card from './card.jsx'
 import Button from './button.jsx'
 import Me from './me.jsx'
 import Login from './userlogin.jsx'
+import { Routes,Route } from 'react-router-dom'
 function App() {
   return(
     <>
+  
     <Header/>
-    <Footer/>
-    <Basics/>
-    <Card/>
-    <Button/>
-    <Me name="abhijith" age={20} gender="male"/>
-    <Me name='diljith' age={13} gender="male"/>
-    <Me name="akhilesh" age={50} gender="male"/>
-    <Me name="Shyni" age={42} gender="female"/>
-    <Login  Islogin={false}  username="abhijith" />
+    <Routes>
+      <Route path='/basic' element={<Basics/>}/>
+     <Route path='/button' element={<Button/>}/>
+          <Route path='/card' element={<Card/>}/>
+    </Routes>
+
+ 
     </>
   )
   

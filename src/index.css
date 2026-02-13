@@ -69,3 +69,7 @@
   margin: 6px 0;
   font-weight: 500;
 }
+.header{
+  display: flex;
+  gap: 20px;
+}
