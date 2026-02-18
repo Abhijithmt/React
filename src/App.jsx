@@ -7,6 +7,7 @@ import Me from './me.jsx'
 import Login from './userlogin.jsx'
 import { Routes,Route } from 'react-router-dom'
 import Usestates from './usestate.jsx'
+import Counting from './counter.jsx'
 function App() {
   return(
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path='/card' element={<Card/>}/>
     </Routes>
     <Usestates/>
+    <Counting/>
 
  
     </>

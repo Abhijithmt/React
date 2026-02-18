@@ -11,7 +11,7 @@ import { useState } from "react"
     }
     
         const incremenage= ()=>{
-            setAge(age + 1)
+            setAge(age + 10 )
         }
 
 
